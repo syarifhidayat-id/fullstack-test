@@ -7,6 +7,34 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## website Administrator - Fullstack
+- git clone https://github.com/syarifhidayat-id/fullstack-test.git
+- cp .env.exampe .env
+- composer install/ composer update
+- php artisan key:generate
+- php artisan migrate/ import db_webtest
+- php artisan db:seed --class=DatabaseSeeder
+- php artisan storage:link
+- npm install && npm run dev
+- php artisan serve
+
+## Documentation
+
+- Form login
+<p align="center"><a href="javascript:void(0)" target="_blank"><img src="public/styles/img/login.png" width="400" alt="Login Logo"></a></p>
+
+- Form Create
+<p align="center"><a href="javascript:void(0)" target="_blank"><img src="public/styles/img/create.png" width="400" alt="Create Logo"></a></p>
+
+- Form List Data
+<p align="center"><a href="javascript:void(0)" target="_blank"><img src="public/styles/img/list.png" width="400" alt="Laravel Logo"></a></p>
+
+## User Test Login
+
+- Username : admin
+- Password : Admin12345&
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
